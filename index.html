@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jake Omer Fan Page (Totally Serious)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #48ff00, #ff00ee);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #00fbff;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 600px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .quote {
+      font-style: italic;
+      color: #555;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background: #333;
+      color: white;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      background: #ff7e5f;
+      color: white;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    button:hover {
+      background: #eb6750;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jake Omer Fan Page</h1>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>About Jake</h2>
+    <img src="IMG_2868.jpg" alt="Jake Omer" style="border-radius: 50%; margin-bottom: 20px; width: 250px; ">
+    <p>Jake Omer is a truly remarkable individual. Known for his unmatched ability to "almost" do things, Jake has inspired absolutely dozens of people to lower their expectations.</p>
+  </div>
+
+  <div class="card">
+    <h2>Top Achievements</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li>🏆 Showed up (late)</li>
+      <li>🏆 Started a project (never finished it)</li>
+      <li>🏆 Said "I'll do it later" with confidence</li>
+      <li>🏆 Googled something instead of knowing it</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Famous Quotes</h2>
+    <p class="quote">"Yeah I totally knew that."</p>
+    <p class="quote">"You know that line from Despicable Me?"</p>
+    <p class="quote">"I'll fix it later."</p>
+  </div>
+
+  <div class="card">
+    <h2>Look alikes</h2>
+    <p>Here's a masterpiece of lookalikes compiled by one of Jake's most dedicated fans:</p>
+    <img src="maxresdefault.jpg" alt="rat boy" style="width: 100%; border-radius: 10px;">
+    <img src="josh-o-connor-challengers.jpg" alt="rat man" style="width: 100%; border-radius: 10px;">
+    <img src="mark-zuckerberg-1.jpg" alt="lizard man" style="width: 100%; border-radius: 10px;">
+  </div>
+
+  <div class="card">
+    <h2>Fan Club</h2>
+    <p>Click the button below to officially become a Jake Omer fan.</p>
+    <button onclick="joinFanClub()">Join Fan Club</button>
+    <p id="message"></p>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2024 Jake Omer Fan Club. All rights reserved.
+</footer>
+
+<script>
+  function joinFanClub() {
+    document.getElementById("message").innerText = "Congratulations! You are now mildly entertained.";
+  }
+</script>
+
+</body>
+</html>
